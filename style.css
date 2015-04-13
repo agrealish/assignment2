@@ -1,0 +1,45 @@
+table {
+  border-collapse:collapse; border:double;
+}
+
+table th,
+table td {
+  border:double; border-color:black;
+}
+
+tbody th {
+  font-style:italic; font-weight:normal;
+}
+tbody td:nth-child(2) {
+  color:red;
+}
+tbody td:nth-child(4) {
+  color:blue;
+}
+
+/* odd/even idea for rows found here: http://www.textfixer.com/tutorials/css-table-alternating-rows.php */
+tbody tr:nth-child(odd) {
+  background:lightgreen;
+}
+tbody tr:nth-child(even) {
+  background:lightblue;
+}
+
+dl dt:hover + dd {
+  background:purple;
+}
+
+form {
+  border:1px solid; border-color:black; width:800px;
+}
+
+div.outer-content {
+  background:pink; width:75%; margin-top:20px;
+}
+div.inner-content {
+  background:blue; width:75%; margin-left:12.5%; text-align:center;
+}
+
+img {
+  float:left; width:100px; height:125px; background:lightgray; text-align:center;
+}
